@@ -1,0 +1,36 @@
+# IT Infrastructure Implementation Timeline
+
+## Phase 1: Foundation (Weeks 1-2)
+
+### Week 1
+1. Documentation & Access Review
+   - Review existing network topology documentation
+   - Gather and verify all access credentials
+   - Review vendor agreements and contacts 
+   - Document in ITG/PSA (CW or HALO)
+
+2. Network Infrastructure Review 
+   - Review network topology 
+   - Create/update network diagram (potentially onsite)
+   - Review VLAN/addressing structure & scopes
+
+3. Network Security Setup 
+   - Initial firewall configuration (if switching to Meraki)
+   - Define basic security policies (threat protection and content filtering)
+   - Plan MFA implementation
+
+## Phase 2: Core Infrastructure (Weeks 2-4)
+
+### Week 2-3
+1. Server Infrastructure Setup
+   - Physical server deployment
+   - Hypervisor installation and configuration
+   - VM host setup
+   - Resource pool configuration
+   - Initial VM template creation
+
+2. Storage Systems Implementation (7 days)
+   - SAN/NAS deployment
+   - Storage network configuration
+   - Storage pool setup
+   - File share structure implementation
