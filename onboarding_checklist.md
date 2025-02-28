@@ -189,3 +189,4 @@
 - more VOIP information
 - warranty expirations, physical security section (doors, keycards, cameras, etc), cable management/physical infrastructure (physical state of locations, etc)
     printers (scan to email, fax (efax or old fax), gpo need, 3rd party print management), 
+- Default GPOs: GPO for computers do not sleep
