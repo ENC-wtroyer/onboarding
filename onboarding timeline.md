@@ -2,37 +2,23 @@
 
 ## Phase 1: Foundation (Weeks 1-2)
 
-### Week 1
-1. Documentation & Access Review
-   - Review existing network topology documentation
-   - Gather and verify all access credentials
+1. Initial Documentation & Access Review
+   - Review existing documentation to extract useful info
    - Review vendor agreements and contacts 
+   - Gather and verify all access credentials
    - Document in ITG/PSA (CW or HALO)
 
-2. Network Infrastructure Review 
+2. Initial Network Infrastructure Review/Setup
    - Review network topology 
    - Create/update network diagram (potentially onsite)
-   - Review VLAN/addressing structure & scopes
-
-3. Network Security Setup 
+   - Document VLAN/addressing structure & scopes
    - Initial firewall configuration (if switching to Meraki)
-   - Define basic security policies (threat protection and content filtering)
-   - Plan MFA implementation
 
-## Phase 2: Core Infrastructure (Weeks 2-4)
+3. Initial 365 Tenant Review/Setup 
+   - Review licensing 
+   - Document existing security policies (threat protection and content filtering)
 
-### Week 2-3
-1. Server Infrastructure Setup
-   - Physical server deployment
-   - Hypervisor installation and configuration
-   - VM host setup
-   - Resource pool configuration
-   - Initial VM template creation
-
-2. Storage Systems Implementation (7 days)
-   - SAN/NAS deployment
-   - Storage network configuration
-   - Storage pool setup
-   - File share structure implementation
-   
-   TEST
+4. Initial Server Documentation
+   - Document Server uses and recommend changes if needed ex. "DC acts as print server, FS hosts xyz application, TS is where QB runs, etc"
+   - Server network configuration
+   - File share documentation
