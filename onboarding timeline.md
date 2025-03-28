@@ -24,4 +24,5 @@
    - File share Inventory and documentation
    - Document Server uses and recommend changes if needed ex. "DC acts as print server, FS hosts xyz application, TS is where QB runs, etc"
 
-   
+group 1: physical security, LOB apps & critical workflows, new computer/user setup
+group 2: printer inventory, additional network devices (specialized machines, etc), existing automations/login scripts
