@@ -9,9 +9,9 @@
 
 2. Initial Network Infrastructure Review/Setup
    - Review network topology 
-   - Network device Inventory
+   - Network device inventory
    - Create/update network diagram (potentially onsite)
-   - Document VLAN/addressing structure & scopes
+   - Document VLAN/addressing structure & DHCP scopes
    - Initial firewall configuration (if switching to Meraki)
 
 3. Initial 365 Tenant Review/Setup 
@@ -19,10 +19,10 @@
    - Document existing security policies (threat protection and content filtering)
 
 4. Initial Server Documentation
-   - Server Inventory
-   - File share Inventory and documentation
-   - Document Server uses and recommend changes if needed ex. "DC acts as print server, FS hosts xyz application, TS is where QB runs, etc"
-   - Reviewing and documenting existing automations/login scripts + any other 'tribal knowledge'
+   - Server inventory
+   - File share inventory and documentation
+   - Document server uses and recommend changes if needed, ex. "DC acts as print server, FS hosts xyz application, TS is where QB runs, etc"
+   - Review and document existing automations/login scripts + any other 'tribal knowledge'
 
 5. Misc/Remaining Network Device Documentation 
    - Inventory and documentation of printers, additional network devices, specialized machines, etc
@@ -32,6 +32,6 @@
 
 7. Service Alignment Discussions and Documentation (with site liasons and decision makers)
    - Review vendor agreements and contacts
-   - Sitting down with client to review their workflow as a business - document
+   - Sit down with client to review their workflow as a business - document
    - Document critical applications and who supports what 
-   - Setting expectations for and creating new user/computer setup documents 
+   - Set expectations for new user setups and create new user/computer setup documents 
