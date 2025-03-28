@@ -4,7 +4,6 @@
 
 1. Initial Documentation & Access Review
    - Review existing documentation to extract useful info
-   - Review vendor agreements and contacts
    - Gather and verify all access credentials
    - Document in ITG/PSA (CW or HALO)
 
@@ -23,6 +22,16 @@
    - Server Inventory
    - File share Inventory and documentation
    - Document Server uses and recommend changes if needed ex. "DC acts as print server, FS hosts xyz application, TS is where QB runs, etc"
+   - Reviewing and documenting existing automations/login scripts + any other 'tribal knowledge'
 
-group 1: physical security, LOB apps & critical workflows, new computer/user setup
-group 2: printer inventory, additional network devices (specialized machines, etc), existing automations/login scripts
+5. Misc/Remaining Network Device Documentation 
+   - Inventory and documentation of printers, additional network devices, specialized machines, etc
+
+6. Physical Security
+   - Server room access, keycards and codes, keys and access information for onsite techs
+
+7. Service Alignment Discussions and Documentation (with site liasons and decision makers)
+   - Review vendor agreements and contacts
+   - Sitting down with client to review their workflow as a business - document
+   - Document critical applications and who supports what 
+   - Setting expectations for and creating new user/computer setup documents 
