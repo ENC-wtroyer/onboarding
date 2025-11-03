@@ -23,15 +23,13 @@
 
 ### Remote Access
 - [ ] Client VPN solution
-- [ ] Site-to-site VPN tunnels
-- [ ] VPN Controls
-- [ ] MFA integration
-- [ ] Remote access policies
+- [ ] Site-to-site VPN?
+- [ ] MFA integration?
+- [ ] Remote access policies - BYOD, split/full tunnel, etc
 
 ## 2. Server Infrastructure
 ### Physical Servers
 - [ ] Physical Server inventory
-- [ ] Hardware specifications
 - [ ] CPU/RAM/Storage configurations
 - [ ] RAID configurations
 - [ ] Power redundancy
@@ -49,8 +47,9 @@
 - [ ] File share configuration
 - [ ] Storage pools
 - [ ] Storage network configuration
+- [ ] Backup platform/schedule
 
-## 3. Systems Configuration
+## 3. Server Configuration
 ### Active Directory
 - [ ] Domain structure
 - [ ] Forest/domain layout
@@ -63,16 +62,10 @@
 - [ ] Exchange/Office 365 configuration
 - [ ] Mail flow rules
 - [ ] Connectors/SMTP relays
-- [ ] Distribution groups
-- [ ] Archive policies
+- [ ] Distribution groups - noteworthy/organization wide (for user setup document purposes)
 - [ ] Compliance settings
 - [ ] Anti-spam configuration
-- [ ] Mobile device policy
-
-### Database Systems
-- [ ] Database inventory
-- [ ] Maintenance plans
-- [ ] Backup schedules
+- [ ] Mail Policies (mobile device, archive, sharing)
 
 ## 4. Security Infrastructure
 ### Access Control  
@@ -81,10 +74,16 @@
 - [ ] SSO configuration
 - [ ] Just-in-time access
 
+### Physical Security
+- [ ] Physical Access Policies (doors, keycards, locks)
+- [ ] Surveillance System/NVR
+- [ ] Camera Footage Policies (backup/retention)
+
 ## 5. Endpoint Management
 ### Physical Inventory Management
-- [ ] Workstation inventory
-- [ ] Hardware Asset Tracking
+- [ ] Workstation Inventory
+- [ ] Hardware Asset Tracking (printers, cameras, IOT)
+- [ ] Mobile Device Inventory
 
 ### OS/Software Management
 - [ ] Local admin policies
@@ -99,8 +98,8 @@
 - [ ] Antivirus/EDR solution
 - [ ] Policy configuration
 - [ ] Exclusions
-- [ ] Update schedule
-- [ ] Encryption status
+- [ ] Update schedule (if custom)
+- [ ] Encryption status - bitlocker or other y/n
 - [ ] High risk users
 
 ## 6. Backup & Disaster Recovery
@@ -116,6 +115,7 @@
 - [ ] Failover procedures
 - [ ] Recovery order
 - [ ] DNS failover
+- [ ] Breakglass/backup admin accounts for 365 & LOB apps
 
 ## 7. Application Infrastructure
 ### Business Applications
@@ -125,6 +125,7 @@
 - [ ] Service accounts
 - [ ] Integration points
 - [ ] Licensing Information
+- [ ] Application Champions
 
 ### Web Infrastructure
 - [ ] Web server configuration
@@ -133,7 +134,6 @@
 - [ ] Virtual hosts
 - [ ] CDN setup
 - [ ] Domain Registrar
-
 
 ## 8. Cloud Infrastructure
 ### Cloud Services
@@ -148,6 +148,14 @@
 
 ### Hybrid Infrastructure
 - [ ] AD Sync
+
+## 9. Business Information
+- [ ] Liason Details (who to call, when, and where)
+- [ ] Location Information
+- [ ] Hours of Operation
+- [ ] Org Chart (if applicable)
+- [ ] Quirks - eg. "don't call xyz, only email" etc
+
 
 # Maintainence Checklist
 
@@ -185,8 +193,7 @@
 - Keep security exceptions documented
 
 ## To Add:
-- Physical Asset inventory (think Configurations in ITG) for Cameras, phones, etc
 - more VOIP information
-- warranty expirations, physical security section (doors, keycards, cameras, etc), cable management/physical infrastructure (physical state of locations, etc)
+- warranty expirations, cable management
     printers (scan to email, fax (efax or old fax), gpo need, 3rd party print management), 
 - Default GPOs: GPO for computers do not sleep
